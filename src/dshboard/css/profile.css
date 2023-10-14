@@ -1,0 +1,72 @@
+.ProfileMain {
+    background-color: #ffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 140%;
+    margin: 0 auto;
+    margin: 6%;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .UserName {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* margin: 3px 0; */
+    height: 50vh;
+    width: 35%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .UserName img {
+    font-size: 48px;
+    color: #007bff;
+  }
+  .user-info{
+    display: flex;
+    width: 100%;
+  }
+  .line{
+    width: 2px;
+    background-color: #e7e7e7;
+    margin-left: 2%;
+  }
+  h2 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  h3 {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .UserInformation {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: 5px 0 0 20px;
+    width: 65%;
+  }
+  
+  .Ui1 {
+    display: flex;
+  }
+  

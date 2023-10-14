@@ -1,0 +1,120 @@
+/* Sidebar.css */
+.index-main{
+  width: 100%;
+  display: block;
+  background: #eff3f5;
+  height: 100vh;
+
+}
+
+.sidemenu{
+  text-align: center;
+}
+.index-navbar{
+  width: 100%;
+  background-color: #ffffff;
+  height: 10vh;
+  position: fixed;
+}
+.index-navbar h3{
+  text-align: center
+}
+.index-menu {
+  width: 20%;
+  background-color: #ffffff;
+  color: #252525;
+  /* position: absolute; */
+  /* top: 77px; */
+  left: 0px;
+  height: 87vh;
+
+  overflow-y: auto;
+  transition: left 0.3s ease-in-out;
+  border-top-right-radius:10px;
+}
+
+.index-menu.show {
+  left: 0;
+}
+.functionalArea{
+  display: flex;
+    width: 100%;
+    height: auto;
+    margin-top: 6%;
+    position: absolute;
+    flex-wrap: wrap;
+   
+}
+.sidebar-option {
+
+  border-bottom: 1px solid #555;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 15px 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.sidebar-option:hover {
+  color: #2f8d46 !important;
+  background-color: #e2f8e3 !important;
+}
+.sidebar-option a{
+  text-decoration: none;
+}
+.assign{
+  background: white;
+  width: 78%;
+  margin: 1%;
+  height: 35vh;
+  border-radius: 10px;
+}
+/* YourComponent.css */
+
+.plus-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+  width: 70%;
+  background: #eef3f5;
+  margin: auto;
+  margin-top: 5vh;
+}
+
+.dotted-border {
+  border: 2px dashed #1C4980;
+  /* border-radius: 50%; */
+  width: 96%;
+  height: 21vh;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.dotted-border h3{
+  text-align: center;
+  color: #1C4980;
+}
+.plus-sign {
+  font-size: 36px;
+  color: blueviolet;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+.assignment{
+  margin-top: -19%;
+  position: relative;
+}
+/* Media Query for responsiveness */
+@media screen and (max-width: 768px) {
+  .index-menu {
+    left: 0%;
+  }
+
+  .index-menu.show {
+    left: 0;
+  }
+}
+/* Assignment css */
